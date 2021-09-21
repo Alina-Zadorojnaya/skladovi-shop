@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/libs.min.css">
+    <link rel="stylesheet" href="css/jquery.formstyler.theme.css">
+    <link rel="stylesheet" href="css/jquery.formstyler.css">
+    <link rel="stylesheet" href="css/style.min.css">
+</head>
+
+<body>
+<div class="page">
+    <header class="header">
+        <div class="container">
+            <div class="header__inner">
+                <a class="logo" href="index.html">
+                    <img class="logo__img" src="images/logo.svg" alt="">
+                </a>
+               
+                <div class="header__box">
+                    <nav class="menu">
+                        <div class="menu__btn">
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                        </div>
+                        <ul class="menu__list">
+                            <li class="menu__item">
+                                <a class="menu__link" href="catalog-new.html">Магазин</a>
+                            </li>
+                            <li class="menu__item">
+                                <a class="menu__link" href="blog.html">Блог</a>
+                            </li>
+                            <li class="menu__item">
+                                <a class="menu__link" href="about-us.html">Про нас</a>
+                            </li>
+                            <li class="menu__item">
+                                <a class="menu__link" href="contacts.html">Контакти</a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <div class="user">
+                        <ul class="user__list">
+                            <li class="user__item"><a class="user__list-link" href="#">
+                                    <img src="images/like-icon.svg" alt="">
+                                </a></li>
+                            <li class="user__item"><a class="user__list-link" href="#">
+                                    <img src="images/user-icon.svg" alt="">
+                                </a></li>
+                            <li class="user__item"><a class="user__list-link" href="#">
+                                    <img src="images/basket-icon.svg" alt="">
+                                </a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="header__btn-menu icon-user"></div>
+            </div>
+        </div>
+    </header>
+
+
+<main class="main">
+    <section class="blog">
+        <div class="container">
+            <div class="breadcrumbs">
+                <h3 class="blog-title">Блог</h3>
+                <ul class="breadcrumbs__list">
+                    <li class="breadcrumbs__list-item">
+                        <a href="index.html">Головна</a>
+                    </li>
+                    <li class="breadcrumbs__list-item">
+                        <span>Блог</span>
+                    </li>
+                </ul>
+            </div>
+
+            <nav class="menu__blog-tab">
+                <ul class="menu__blog-list">
+                    <li class="menu__blog-link">
+                        <a class="blog__tab-link blog__tab-link--active" href="#tab-1">Всі новини</a>
+                    </li>
+                    <li class="menu__blog-link">  
+                        <a class="blog__tab-link" href="#tab-2">Рецепти</a>
+                    </li>
+                    <li class="menu__blog-link">
+                        <a class="blog__tab-link" href="#tab-3">Журнал</a>
+                    </li>
+                </ul>                
+            </nav>
+
+            <div class="blog__inner">
+                <div id="tab-1" class="blog__item-tabs blog__item-tabs--active">
+                    <div class="blog__item">
+                        <img class="blog__item-images" src="images/content/blog__img-1.svg" alt="">
+                        <div class="blog__box">
+                            <div class="blog__box-info">
+                                <div class="blog__user">
+                                    <img src="images/content/blog-user-1.svg" alt="">
+                                    <div class="blog__user-name">
+                                        Катерина
+                                        <span>21.04</span>
+                                    </div>
+                                </div>
+                                <img src="images/blog-btn.svg" alt="">
+                            </div>
+                            <div class="blog__item-title">
+                                Груша з йогуртом
+                            </div>
+                            <div class="blog__item-text">
+                                Груша це дитинтсво. Груша це дюшес.
+                                Дуже простий рецепт смачного сніданку. Все що треба – цена смачні Груші Дюшес та йогурт.
+                                Ну
+                                а все інше
+                                ми покажемо тобі у статі.
+                            </div>
+                            <div class="blog__more">
+                                <div class="views"> 4 перегляд</div>
+                                <button class="blog-favorite"></button>
+                            </div>
+                            <button class="blog__item-btn">Детальніше</button>
+                            <div class="share">
+                                <img src="images/icon/arrow-blog.svg" alt="">
+                               <span>Поділитися</span> 
+                            </div>
+                        </div>
+                       
+                    </div>
+                    <div class="blog__item">
+                        <img class="blog__item-images" src="images/content/blog__img-2.svg" alt="">
+                        <div class="blog__box">
+                            <div class="blog__box-info">
+                                <div class="blog__user">
+                                    <img src="images/blog-user-2.svg" alt="">
+                                    <div class="blog__user-name">
+                                        Анна
+                                        <span></span>
+                                    </div>
+                                </div>
+                                <img src="images/blog-btn.svg" alt="">
+                            </div>
+                            <div class="blog__item-title">
+                                Салат з інжиром
+                            </div>
+                            <div class="blog__item-text">
+                                Що може бути смачніше ніж соковитий інжир. Я не знаю, а ви? У цій статті ми розповімо як
+                                правильно обираті інжир та готувати його із салатом. Хучіш до нас!
+                            </div>
+                            <div class="blog__more">
+                                <div class="views"> 4 перегляд</div>
+                                <button class="blog-favorite"></button>
+                            </div>
+                            <button class="blog__item-btn">Детальніше</button>
+                            <div class="share">
+                                <img src="images/icon/arrow-blog.svg" alt="">
+                               <span>Поділитися</span> 
+                            </div>
+                        </div>
+                    </div>
+                    <div class="blog__item">
+                        <img class="blog__item-images" src="images/content/blog__img-3.svg" alt="">
+                        <div class="blog__box">
+                            <div class="blog__box-info">
+                                <div class="blog__user">
+                                    <img src="images/content/blog-user-1.svg" alt="">
+                                    <div class="blog__user-name">
+                                        Катерина
+                                        <span>21.04</span>
+                                    </div>
+                                </div>
+                                <img src="images/blog-btn.svg" alt="">
+                            </div>
+                            <div class="blog__item-title">
+                                Як зробити сумку авоську
+                            </div>
+                            <div class="blog__item-text">
+                                Досить купляти пакети які засмічують нашу планету. Приєднуйся до нас та зроби з нами
+                                сумку
+                                авоську, яку ти зможешь завжди носити з собою. А ще це аби який тренд цього літа.
+                            </div>
+                            <div class="blog__more">
+                                <div class="views"> 4 перегляд</div>
+                                <button class="blog-favorite"></button>
+                            </div>
+                            <button class="blog__item-btn">Детальніше</button>
+                            <div class="share">
+                                <img src="images/icon/arrow-blog.svg" alt="">
+                               <span>Поділитися</span> 
+                            </div>
+                        </div>
+                    </div>
+                    <div class="blog__item">
+                        <img class="blog__item-images" src="images/content/blog__img-4.svg" alt="">
+                        <div class="blog__box">
+                            <div class="blog__box-info">
+                                <div class="blog__user">
+                                    <img src="images/content/blog-user-1.svg" alt="">
+                                    <div class="blog__user-name">
+                                        Катерина
+                                        <span>21.04</span>
+                                    </div>
+                                </div>
+                                <img src="images/blog-btn.svg" alt="">
+                            </div>
+                            <div class="blog__item-title">
+                                Чому важливо їсти артишок
+                            </div>
+                            <div class="blog__item-text">
+                                Я дієтолог зі стажем біля 10 років Анна Герман. Читайте мою статтю де я розповідаю про
+                                свої
+                                рецепти з цим овочем та розвопим про всю його користь.
+                            </div>
+                            <div class="blog__more">
+                                <div class="views"> 4 перегляд</div>
+                                <button class="blog-favorite"></button>
+                            </div>
+                            <button class="blog__item-btn">Детальніше</button>
+                            <div class="share">
+                                <img src="images/icon/arrow-blog.svg" alt="">
+                               <span>Поділитися</span> 
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+    <footer class="footer">
+        <div class="container">
+            <ul class="footer__list">
+                <li class="footer__list-title footer__phone">
+                    <a class="footer__link" href="tel:+380445555555">44 555 55 55</a>
+                </li>
+                <li class="footer__list-title footer__mail">
+                    <a class="footer__link" href="#">info@skladovi.shop</a>
+                </li>
+                <li class="footer__list-title footer__adress">
+                    <a class="footer__link" href="#">Київ, вул. Хрещатик 15</a>
+                </li>
+            </ul>
+            <div class="footer__info">
+                <div class="footer__menu">
+                    <p class="footer__menu-title">Оплата та доставка</p>
+                    <ul class="footer__menu-list">
+                        <li class="footer__menu-link"><a href="#">Умови</a></li>
+                        <li class="footer__menu-link"><a href="#">Повернення товарів</a></li>
+                        <li class="footer__menu-link"><a href="#">Политіка конфіденційності</a></li>
+                        <li class="footer__menu-link"><a href="#">Договір оферти</a></li>
+                        <li class="footer__menu-link"><a href="#">
+                                <img src="images/card.svg" alt="">
+                            </a></li>
+                    </ul>
+                </div>
+                <div class="footer__menu">
+                    <p class="footer__menu-title">Інформація</p>
+                    <ul class="footer__menu-list">
+                        <li class="footer__menu-link"><a href="#">Про нашу компанію</a></li>
+                        <li class="footer__menu-link"><a href="#">Співробітництво</a></li>
+                        <li class="footer__menu-link"><a href="#">Рецепти</a></li>
+
+                    </ul>
+                </div>
+                <div class="footer__menu">
+                    <p class="footer__menu-title">Каталог</p>
+                    <ul class="footer__menu-list">
+                        <li class="footer__menu-link"><a href="#">Горіхові пасти</a></li>
+                        <li class="footer__menu-link"><a href="#">Медові продукти</a></li>
+                        <li class="footer__menu-link"><a href="#">Камбуча</a></li>
+                        <li class="footer__menu-link"><a href="#">Олія</a></li>
+                        <li class="footer__menu-link"><a href="#">Цукати та в’ялені овочі</a></li>
+                        <li class="footer__menu-link"><a href="#">Горіх</a></li>
+                    </ul>
+                </div>
+                <div class="footer__menu footer__menu-new">
+                    <p class="footer__menu-title">Новини</p>
+                    <div class="footer__menu-box">
+                        <div class="footer__text">Підпишись на наші новини та отримай знижку у 120 грн на перше
+                            замовлення.</div>
+                        <div class="footer__coshil">
+                            <ul class="footer__soshil-list">
+                                <li class="footer__coshil-link"><a href="#">
+                                    <img src="images/facebock.svg" alt="">
+                                </a></li>
+                                <li class="footer__coshil-link"><a href="#">
+                                    <img src="images/content/instagram.svg" alt="">
+                                </a></li>
+                                <li class="footer__coshil-link"><a href="#">
+                                    <img src="images/content/footer-logo.svg" alt="">
+                                </a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </footer>
+</div>
+
+    <!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="js/libs.min.js"></script>
+    <script src="js/jquery.formstyler.min.js"></script>
+    <script src="js/main.js"></script>
+
+</body>
+
+</html>

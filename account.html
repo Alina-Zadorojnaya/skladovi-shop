@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/libs.min.css">
+    <link rel="stylesheet" href="css/jquery.formstyler.theme.css">
+    <link rel="stylesheet" href="css/jquery.formstyler.css">
+    <link rel="stylesheet" href="css/style.min.css">
+</head>
+
+<body>
+<div class="page">
+    <header class="header">
+        <div class="container">
+            <div class="header__inner">
+                <a class="logo" href="index.html">
+                    <img class="logo__img" src="images/logo.svg" alt="">
+                </a>
+               
+                <div class="header__box">
+                    <nav class="menu">
+                        <div class="menu__btn">
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                        </div>
+                        <ul class="menu__list">
+                            <li class="menu__item">
+                                <a class="menu__link" href="catalog-new.html">Магазин</a>
+                            </li>
+                            <li class="menu__item">
+                                <a class="menu__link" href="blog.html">Блог</a>
+                            </li>
+                            <li class="menu__item">
+                                <a class="menu__link" href="about-us.html">Про нас</a>
+                            </li>
+                            <li class="menu__item">
+                                <a class="menu__link" href="contacts.html">Контакти</a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <div class="user">
+                        <ul class="user__list">
+                            <li class="user__item"><a class="user__list-link" href="#">
+                                    <img src="images/like-icon.svg" alt="">
+                                </a></li>
+                            <li class="user__item"><a class="user__list-link" href="account.html">
+                                    <img src="images/user-icon.svg" alt="">
+                                </a></li>
+                            <li class="user__item"><a class="user__list-link" href="#">
+                                    <img src="images/basket-icon.svg" alt="">
+                                </a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="header__btn-menu icon-user"></div>
+            </div>
+        </div>
+    </header>
+
+    <main class="main">
+        <section class="account">
+            <div class="container">
+                <div class="container__tabs">
+                    <div class="tabs-categori">
+                        <div class="tabs-user">
+                            <img src="images/content/user-1.jpg" alt="">
+                            <span>Привіт Вікторія! </span>
+                        </div>
+                        <div class="tabs">
+                            <div class="tab active on-tab" data-id="1"> Замовлення </div>
+                            <div class="tab" data-id="2"> Адреса</div>
+                            <div class="tab" data-id="3">Улюблене</div>
+                            <div class="tab" data-id="4">Налаштування</div>
+                        </div>
+                    </div>
+                    <div class="content__tab">
+                        <div class="tab-item tab-item--active" id="1">
+                            <div class="account-box__scrol">
+                                <h3 class="account-box__title">Мої замовлення</h3>
+                                <span class="account-box__date">12.05.2020</span>
+                                <div class="account-history__scroll">
+                                    <div class="prediction__box-items account__scroll-item">
+                                        <div class="prediction__box-item">
+                                            <div class="prediction__box-itemimg">
+                                                <img src="images/content/basket-1.png" alt="">
+                                                <div class="prediction__box-itemtitle">
+                                                    Паста с насіння кунжуту
+                                                    <span>250 г</span>
+                                                </div>
+                                            </div>
+                                            <div class="prediction__box-itemprice">
+                                                45 грн
+                                            </div>
+                                        </div>
+                                        <div class="prediction__box-item">
+                                            <div class="prediction__box-itemimg">
+                                                <img src="images/content/basket-2.png" alt="">
+                                                <div class="prediction__box-itemtitle">
+                                                    Лук
+                                                    <span>1 kг</span>
+                                                </div>
+                                            </div>
+                                            <div class="prediction__box-itemprice">
+                                                55 грн
+                                            </div>
+                                        </div>
+                                        <div class="prediction__box-item">
+                                            <div class="prediction__box-itemimg">
+                                                <img src="images/content/basket-3.png" alt="">
+                                                <div class="prediction__box-itemtitle">
+                                                    Камбуча Лаймонадна
+                                                    <span>20 мл</span>
+                                                </div>
+                                            </div>
+                                            <div class="prediction__box-itemprice">
+                                                110 грн
+                                            </div>
+                                        </div>
+                                        <div class="prediction__box-item">
+                                            <div class="prediction__box-itemimg">
+                                                <img src="images/content/basket-4.png" alt="">
+                                                <div class="prediction__box-itemtitle">
+                                                    Фундучна паста з какао
+                                                    <span>250 г</span>
+                                                </div>
+                                            </div>
+                                            <div class="prediction__box-itemprice">
+                                                110 грн
+                                            </div>
+                                        </div>
+                                        <div class="prediction__box-item">
+                                            <div class="prediction__box-itemimg">
+                                                <img src="images/content/basket-2.png" alt="">
+                                                <div class="prediction__box-itemtitle">
+                                                    Лук
+                                                    <span>1 kг</span>
+                                                </div>
+                                            </div>
+                                            <div class="prediction__box-itemprice">
+                                                55 грн
+                                            </div>
+                                        </div>
+                                        <div class="prediction__box-item">
+                                            <div class="prediction__box-itemimg">
+                                                <img src="images/content/basket-2.png" alt="">
+                                                <div class="prediction__box-itemtitle">
+                                                    Лук
+                                                    <span>1 kг</span>
+                                                </div>
+                                            </div>
+                                            <div class="prediction__box-itemprice">
+                                                55 грн
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="prediction__box-items account__scroll-item">
+                                        <div class="prediction__box-item">
+                                            <div class="prediction__box-itemimg">
+                                                <img src="images/content/basket-1.png" alt="">
+                                                <div class="prediction__box-itemtitle">
+                                                    Паста с насіння кунжуту
+                                                    <span>250 г</span>
+                                                </div>
+                                            </div>
+                                            <div class="prediction__box-itemprice">
+                                                45 грн
+                                            </div>
+                                        </div>
+                                        <div class="prediction__box-item">
+                                            <div class="prediction__box-itemimg">
+                                                <img src="images/content/basket-2.png" alt="">
+                                                <div class="prediction__box-itemtitle">
+                                                    Лук
+                                                    <span>1 kг</span>
+                                                </div>
+                                            </div>
+                                            <div class="prediction__box-itemprice">
+                                                55 грн
+                                            </div>
+                                        </div>
+                                        <div class="prediction__box-item">
+                                            <div class="prediction__box-itemimg">
+                                                <img src="images/content/basket-3.png" alt="">
+                                                <div class="prediction__box-itemtitle">
+                                                    Камбуча Лаймонадна
+                                                    <span>20 мл</span>
+                                                </div>
+                                            </div>
+                                            <div class="prediction__box-itemprice">
+                                                110 грн
+                                            </div>
+                                        </div>
+                                        <div class="prediction__box-item">
+                                            <div class="prediction__box-itemimg">
+                                                <img src="images/content/basket-4.png" alt="">
+                                                <div class="prediction__box-itemtitle">
+                                                    Фундучна паста з какао
+                                                    <span>250 г</span>
+                                                </div>
+                                            </div>
+                                            <div class="prediction__box-itemprice">
+                                                110 грн
+                                            </div>
+                                        </div>
+                                        <div class="prediction__box-item">
+                                            <div class="prediction__box-itemimg">
+                                                <img src="images/content/basket-2.png" alt="">
+                                                <div class="prediction__box-itemtitle">
+                                                    Лук
+                                                    <span>1 kг</span>
+                                                </div>
+                                            </div>
+                                            <div class="prediction__box-itemprice">
+                                                55 грн
+                                            </div>
+                                        </div>
+                                        <div class="prediction__box-item">
+                                            <div class="prediction__box-itemimg">
+                                                <img src="images/content/basket-2.png" alt="">
+                                                <div class="prediction__box-itemtitle">
+                                                    Лук
+                                                    <span>1 kг</span>
+                                                </div>
+                                            </div>
+                                            <div class="prediction__box-itemprice">
+                                                55 грн
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+    
+                        </div>
+                      <!-- <div class="tab-item" id="2">
+                            <div class="breadcrumbs">
+                                <div class="container">
+                                    <h3 class="blog-title">Контакти</h3>
+                                    <ul class="breadcrumbs__list">
+                                        <li class="breadcrumbs__list-item">
+                                            <a href="#">Головна</a>
+                                        </li>
+                                        <li class="breadcrumbs__list-item">
+                                            <span>Контакти</span>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="contacts tab-contact">
+                                <div class="contacts__inner">
+                                    <div class="contacts__item">
+                                        <a class="contacts__phone" href="tel:+380504444444">+38 050 444 44 44</a>
+                                        <a class="contacts__phone" href="tel:+380404444444">+38 040 444 44 44</a>
+                                        <p class="contacts__enather">Київ. вул Шевченка 5, офіс 18</p>
+                                        <p class="contacts__enather">Ми працюємо з понеділка по п’ятніцю з 9:00 до 21:00 </p>
+                                        <div class="contacts__adress-title">
+                                            Співпраця
+                                            <span>pr@skladovishop.com</span>
+                                        </div>
+                                        <div class="contacts__adress-title">
+                                            Відділ маркетингу
+                                            <span>info@skladovishop.com</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-item" id="3">
+                            <div class="tabs-favorite">
+                                <div class="tabs-favorite__title title">Улюблені</div>
+                              
+                            </div>
+                        </div>
+                        <div class="tab-item" id="4">
+                            <div class="satings-box">
+                                <div class="satings-box__title title">Налаштування</div>
+                                <form action="#" class="form-satings">
+                                    <label class="lable-satings">
+                                        ПІБ
+                                        <div class="user-satings">
+                                            <input type="text" name="username" value=""> 
+                                            <span>редугавати</span>
+                                        </div>
+                                    </label>
+                                    <label class="lable-satings">
+                                        Телефон
+                                        <div class="user-satings">
+                                            <input type="tel" name="phone" value="">
+                                            <span>редугавати</span>
+                                        </div>
+                                    </label>
+                                    <label class="lable-satings" >
+                                        Пошта
+                                        <div class="user-satings">
+                                             <input type="email" name="mail" value=""> 
+                                             <span>редугавати</span>
+                                        </div>
+                                    </label>
+    
+                                    <label class="lable-satings">
+                                        Пароль
+                                        <div class="user-satings">
+                                            <input type="password" name="userpass" value="" >
+                                            <span>змінити</span>
+                                        </div>
+                                    </label>
+                                </form>
+                                
+                            </div>
+                        </div>
+                    -->
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+
+    <footer class="footer">
+        <div class="container">
+            <ul class="footer__list">
+                <li class="footer__list-title footer__phone">
+                    <a class="footer__link" href="tel:+380445555555">44 555 55 55</a>
+                </li>
+                <li class="footer__list-title footer__mail">
+                    <a class="footer__link" href="#">info@skladovi.shop</a>
+                </li>
+                <li class="footer__list-title footer__adress">
+                    <a class="footer__link" href="#">Київ, вул. Хрещатик 15</a>
+                </li>
+            </ul>
+            <div class="footer__info">
+                <div class="footer__menu">
+                    <p class="footer__menu-title">Оплата та доставка</p>
+                    <ul class="footer__menu-list">
+                        <li class="footer__menu-link"><a href="#">Умови</a></li>
+                        <li class="footer__menu-link"><a href="#">Повернення товарів</a></li>
+                        <li class="footer__menu-link"><a href="#">Политіка конфіденційності</a></li>
+                        <li class="footer__menu-link"><a href="#">Договір оферти</a></li>
+                        <li class="footer__menu-link"><a href="#">
+                                <img src="images/card.svg" alt="">
+                            </a></li>
+                    </ul>
+                </div>
+                <div class="footer__menu">
+                    <p class="footer__menu-title">Інформація</p>
+                    <ul class="footer__menu-list">
+                        <li class="footer__menu-link"><a href="#">Про нашу компанію</a></li>
+                        <li class="footer__menu-link"><a href="#">Співробітництво</a></li>
+                        <li class="footer__menu-link"><a href="#">Рецепти</a></li>
+
+                    </ul>
+                </div>
+                <div class="footer__menu">
+                    <p class="footer__menu-title">Каталог</p>
+                    <ul class="footer__menu-list">
+                        <li class="footer__menu-link"><a href="#">Горіхові пасти</a></li>
+                        <li class="footer__menu-link"><a href="#">Медові продукти</a></li>
+                        <li class="footer__menu-link"><a href="#">Камбуча</a></li>
+                        <li class="footer__menu-link"><a href="#">Олія</a></li>
+                        <li class="footer__menu-link"><a href="#">Цукати та в’ялені овочі</a></li>
+                        <li class="footer__menu-link"><a href="#">Горіх</a></li>
+                    </ul>
+                </div>
+                <div class="footer__menu footer__menu-new">
+                    <p class="footer__menu-title">Новини</p>
+                    <div class="footer__menu-box">
+                        <div class="footer__text">Підпишись на наші новини та отримай знижку у 120 грн на перше
+                            замовлення.</div>
+                        <div class="footer__coshil">
+                            <ul class="footer__soshil-list">
+                                <li class="footer__coshil-link"><a href="#">
+                                    <img src="images/facebock.svg" alt="">
+                                </a></li>
+                                <li class="footer__coshil-link"><a href="#">
+                                    <img src="images/content/instagram.svg" alt="">
+                                </a></li>
+                                <li class="footer__coshil-link"><a href="#">
+                                    <img src="images/content/footer-logo.svg" alt="">
+                                </a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </footer>
+</div>
+
+    <!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="js/libs.min.js"></script>
+    <script src="js/jquery.formstyler.min.js"></script>
+    <script src="js/main.js"></script>
+
+</body>
+
+</html>

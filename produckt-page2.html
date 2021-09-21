@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/libs.min.css">
+    <link rel="stylesheet" href="css/jquery.formstyler.theme.css">
+    <link rel="stylesheet" href="css/jquery.formstyler.css">
+    <link rel="stylesheet" href="css/style.min.css">
+</head>
+
+<body>
+<div class="page">
+    <header class="header">
+        <div class="container">
+            <div class="header__inner">
+                <a class="logo" href="index.html">
+                    <img class="logo__img" src="images/logo.svg" alt="">
+                </a>
+               
+                <div class="header__box">
+                    <nav class="menu">
+                        <div class="menu__btn">
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                        </div>
+                        <ul class="menu__list">
+                            <li class="menu__item">
+                                <a class="menu__link" href="catalog-new.html">Магазин</a>
+                            </li>
+                            <li class="menu__item">
+                                <a class="menu__link" href="blog.html">Блог</a>
+                            </li>
+                            <li class="menu__item">
+                                <a class="menu__link" href="about-us.html">Про нас</a>
+                            </li>
+                            <li class="menu__item">
+                                <a class="menu__link" href="contacts.html">Контакти</a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <div class="user">
+                        <ul class="user__list">
+                            <li class="user__item"><a class="user__list-link" href="#">
+                                    <img src="images/like-icon.svg" alt="">
+                                </a></li>
+                            <li class="user__item"><a class="user__list-link" href="#">
+                                    <img src="images/user-icon.svg" alt="">
+                                </a></li>
+                            <li class="user__item"><a class="user__list-link" href="#">
+                                    <img src="images/basket-icon.svg" alt="">
+                                </a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="header__btn-menu icon-user"></div>
+            </div>
+        </div>
+    </header>
+    <main class="main">
+    <div class="breadcrumbs">
+        <div class="container">
+            <ul class="breadcrumbs__list">
+                <li class="breadcrumbs__list-item">
+                    <a href="index.html">Головна</a>
+                </li>
+                <li class="breadcrumbs__list-item">
+                    <a href="catalog-new.html">Магазин</a>
+                </li>
+                <li class="breadcrumbs__list-item">
+                    <a href="#">Овочі</a>
+                </li>
+                <li class="breadcrumbs__list-item">
+                    <span>Комбуча</span>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <section class="produckt-page">
+        <div class="container">
+            <div class="produckt-page__inner">
+                <div class="produckt-page__item produckt-bg">
+                    <img src="images/produckt-2.svg" alt="">
+                </div>
+                <div class="produckt-page__item">
+                    <div class="product__star produckt-page__star">
+                        <div class="star-reiting-reviews"></div>
+                        <span> 7 відгуки</span>
+                    </div>
+                    <div class="produckt-page__title">
+                        <p class="page__title">Камбуча Лаймонадна</p>
+                        <div class="page-volume">
+                            <span> 330 мл</span>
+                        </div>
+
+                    </div>
+                    <p class="produckt-page__price">
+                    <div class="produckt-page__pricetext">Напій безалкогольний на рослинній сировині слабогазованої
+                        «комбуча Лаймонадна» з настоєм
+                        листя каффір-лайма</div>
+                    </p>
+                    <div class="produckt2-boxprice">
+                        <!-- <div class="cull-sum">
+                        <button onclick="plus('+')">+</button>
+                        <div id="demo">0</div>
+                        <button onclick="plus('-')">-</button>
+                    </div>-->
+                        <div>
+                            <select class="boxprice-select">
+                                <option>Оберіть кількість</option>
+                                <option class="boxprise-option">1
+                                </option>
+                                <option>2</option>
+                                <option>3</option>
+                            </select>
+                        </div>
+
+                        <div class="produckt-page__btn">
+                            <button class="page__btn-buy page-btn page-btn--active">
+                                <span>Додати в кошик</span>
+                            </button>
+                            <button class="page__btn-favorite page-btn">
+                                <span> Додати в улюблене</span>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="produckt_advantages">
+                        <div class="advantages__img">
+                            <img src="images/adbavt-1.svg" alt="">
+                        </div>
+                        <div class="advantages__img">
+                            <img src="images/adbavt-2.svg" alt="">
+                        </div>
+                        <div class="advantages__img">
+                            <img src="images/adbavt-3.svg" alt="">
+                        </div>
+                    </div>
+
+                    <div class="produckt-page__box">
+                        <div class="produckt-page__info">
+                            <p class="produckt-page__box-title produckt-page__box-title--active">Властивості</p>
+                            <p class="produckt-page__box-text">
+                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Expedita totam nesciunt quas
+                                culpa nisi corporis excepturi, voluptas quia in reiciendis quasi repellendus quos
+                                deleniti ipsa ad, non maiores, assumenda nulla!
+                            </p>
+                        </div>
+                        <div class="produckt-page__info">
+                            <p class="produckt-page__box-title">Склад</p>
+                            <p class="produckt-page__box-text">
+                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Expedita totam nesciunt quas
+                                culpa nisi corporis excepturi, voluptas quia in reiciendis quasi repellendus quos
+                                deleniti ipsa ad, non maiores, assumenda nulla!
+                            </p>
+                        </div>
+                        <div class="produckt-page__info">
+                            <p class="produckt-page__box-title">Смак</p>
+                            <p class="produckt-page__box-text">
+                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Expedita totam nesciunt quas
+                                culpa nisi corporis excepturi, voluptas quia in reiciendis quasi repellendus quos
+                                deleniti ipsa ad, non maiores, assumenda nulla!
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="reviews">
+        <div class="container">
+
+            <div class="reviews__inner">
+                <div class="reviews__item reviews-more-scrol">
+
+                    <div class="reviews__title">Відгуки</div>
+                    <div class="reviews-scroll">
+                        <div class="reviews-more__inner">
+                            <div class="reviews__item-box">
+                                <div class="reviews__item-name">
+                                    Катя <span class="reviews__item-date">28 дні тому</span>
+                                </div>
+                                <div class="star-reiting-reviews"></div>
+
+                            </div>
+                            <div class="reviews__item-text">
+                                Я просто в захваті від цієї редьки! Завжди з неї готую оладки. Рекомендую!
+                            </div>
+                            <button class="reviews__item-btn">Відповісти</button>
+                        </div>
+                        <div class="reviews-more__inner">
+                            <div class="reviews__item-box">
+                                <div class="reviews__item-name">
+                                    Павел <span class="reviews__item-date">5 дні тому</span>
+                                </div>
+                                <div class="star-reiting-reviews"></div>
+
+                            </div>
+                            <div class="reviews__item-text">
+                                Я просто в захваті від цієї редьки! Завжди з неї готую оладки. Рекомендую!
+                            </div>
+                            <button class="reviews__item-btn">Відповісти</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="reviews__item ">
+                    <div class="box-feackback">
+                        <div class="reviews__title">Залишити відгук</div>
+                        <div class="star-reviews-feackbeck"></div>
+                    </div>
+                    <div class="feackback__box">
+                        <form class="feackback-form">
+                            <div class="feackback-form__name">
+                                <label type="text">ПІБ</label>
+                                <input class="feackback-fotm__input" type="text" placeholder="">
+                                <label type="text">Пошта</label>
+                                <input type="text" placeholder="">
+                            </div>
+                            <div class="feackback-form_text">
+                                <label type="text">Напишіть своє враження</label>
+                                <textarea name="text" placeholder="Текст"></textarea>
+                                <button class="feackback-form-btn">Відправити</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="slider">
+        <div class="container">
+            <div class="slider__title title">
+                З цими продуктами також купляють
+            </div>
+            <div class="slider__inner">
+                <div class="product__item">
+                    <button class="product__item-favorite"></button>
+                    <div class="product__star">
+                        <div class="star-reiting"></div>
+                        <span> 3 відгуки</span>
+                    </div>
+                    <a class="product__img" href="#" style="background-image: url('images/content/product-2.png');"></a>
+                    <div class="product__info">
+                        <div class="product__info-box">
+                            <a class="product__info-title" href="#">Камбуча Лаймонадна
+                                <span>250мл</span>
+                            </a>
+                            <div class="product__price">
+                                81 грн <span>87 грн</span>
+                            </div>
+                        </div>
+                        <button type="submit" class="product-btn">
+                            Купити
+                        </button>
+                    </div>
+                </div>
+                <div class="product__item">
+                    <button class="product__item-favorite"></button>
+                    <div class="product__star">
+                        <div class="star-reiting"></div>
+                        <span> 3 відгуки</span>
+                    </div>
+                    <a class="product__img" href="#" style="background-image: url('images/content/product-1.png');"></a>
+                    <div class="product__info">
+                        <div class="product__info-box">
+                            <a class="product__info-title" href="#">Виноград
+                                <span>1кг</span>
+                            </a>
+                            <div class="product__price">
+                                120 грн <span>150 грн</span>
+                            </div>
+                        </div>
+                        <button type="submit" class="product-btn">
+                            Купити
+                        </button>
+                    </div>
+                </div>
+
+                <div class="product__item">
+                    <button class="product__item-favorite"></button>
+                    <div class="product__star">
+                        <div class="star-reiting"></div>
+                        <span> 25 відгуки</span>
+                    </div>
+                    <a class="product__img" href="#" style="background-image: url('images/content/product-4.png');"> </a>
+                    <div class="product__info">
+                        <div class="product__info-box">
+                            <a class="product__info-title" href="#">Грецькі горіхи
+                                <span>100г</span>
+                            </a>
+                            <div class="product__price">
+                                20 грн <span></span>
+                            </div>
+                        </div>
+                        <button type="submit" class="product-btn">
+                            Купити
+                        </button>
+                    </div>
+                </div>
+                <div class="product__item">
+                    <button class="product__item-favorite"></button>
+                    <div class="product__star">
+                        <div class="star-reiting"></div>
+                        <span> 25 відгуки</span>
+                    </div>
+                    <a class="product__img" href="#" style="background-image: url('images/content/product-3.png');"></a>
+                    <div class="product__info">
+                        <div class="product__info-box">
+                            <a class="product__info-title" href="#">Паста з насіння кунжуту
+                                <span>120г</span>
+                            </a>
+                            <div class="product__price">
+                                110 грн <span>120 грн</span>
+                            </div>
+                        </div>
+                        <button type="submit" class="product-btn">
+                            Купити
+                        </button>
+                    </div>
+                </div>
+                <div class="product__item">
+                    <button class="product__item-favorite"></button>
+                    <div class="product__star">
+                        <div class="star-reiting"></div>
+                        <span> 3 відгуки</span>
+                    </div>
+                    <a class="product__img" href="#" style="background-image: url('images/content/product-1.png');"></a>
+                    <div class="product__info">
+                        <div class="product__info-box">
+                            <a class="product__info-title" href="#">Виноград
+                                <span>1кг</span>
+                            </a>
+                            <div class="product__price">
+                                120 грн <span>150 грн</span>
+                            </div>
+                        </div>
+                        <button type="submit" class="product-btn">
+                            Купити
+                        </button>
+                    </div>
+                </div>
+                <div class="product__item">
+                    <button class="product__item-favorite"></button>
+                    <div class="product__star">
+                        <div class="star-reiting"></div>
+                        <span> 3 відгуки</span>
+                    </div>
+                    <a class="product__img" href="#" style="background-image: url('images/content/product-1.png');"></a>
+                    <div class="product__info">
+                        <div class="product__info-box">
+                            <a class="product__info-title" href="#">Виноград
+                                <span>1кг</span>
+                            </a>
+                            <div class="product__price">
+                                120 грн <span>150 грн</span>
+                            </div>
+                        </div>
+                        <button type="submit" class="product-btn">
+                            Купити
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+    <footer class="footer">
+        <div class="container">
+            <ul class="footer__list">
+                <li class="footer__list-title footer__phone">
+                    <a class="footer__link" href="tel:+380445555555">44 555 55 55</a>
+                </li>
+                <li class="footer__list-title footer__mail">
+                    <a class="footer__link" href="#">info@skladovi.shop</a>
+                </li>
+                <li class="footer__list-title footer__adress">
+                    <a class="footer__link" href="#">Київ, вул. Хрещатик 15</a>
+                </li>
+            </ul>
+            <div class="footer__info">
+                <div class="footer__menu">
+                    <p class="footer__menu-title">Оплата та доставка</p>
+                    <ul class="footer__menu-list">
+                        <li class="footer__menu-link"><a href="#">Умови</a></li>
+                        <li class="footer__menu-link"><a href="#">Повернення товарів</a></li>
+                        <li class="footer__menu-link"><a href="#">Политіка конфіденційності</a></li>
+                        <li class="footer__menu-link"><a href="#">Договір оферти</a></li>
+                        <li class="footer__menu-link"><a href="#">
+                                <img src="images/card.svg" alt="">
+                            </a></li>
+                    </ul>
+                </div>
+                <div class="footer__menu">
+                    <p class="footer__menu-title">Інформація</p>
+                    <ul class="footer__menu-list">
+                        <li class="footer__menu-link"><a href="#">Про нашу компанію</a></li>
+                        <li class="footer__menu-link"><a href="#">Співробітництво</a></li>
+                        <li class="footer__menu-link"><a href="#">Рецепти</a></li>
+
+                    </ul>
+                </div>
+                <div class="footer__menu">
+                    <p class="footer__menu-title">Каталог</p>
+                    <ul class="footer__menu-list">
+                        <li class="footer__menu-link"><a href="#">Горіхові пасти</a></li>
+                        <li class="footer__menu-link"><a href="#">Медові продукти</a></li>
+                        <li class="footer__menu-link"><a href="#">Камбуча</a></li>
+                        <li class="footer__menu-link"><a href="#">Олія</a></li>
+                        <li class="footer__menu-link"><a href="#">Цукати та в’ялені овочі</a></li>
+                        <li class="footer__menu-link"><a href="#">Горіх</a></li>
+                    </ul>
+                </div>
+                <div class="footer__menu footer__menu-new">
+                    <p class="footer__menu-title">Новини</p>
+                    <div class="footer__menu-box">
+                        <div class="footer__text">Підпишись на наші новини та отримай знижку у 120 грн на перше
+                            замовлення.</div>
+                        <div class="footer__coshil">
+                            <ul class="footer__soshil-list">
+                                <li class="footer__coshil-link"><a href="#">
+                                    <img src="images/facebock.svg" alt="">
+                                </a></li>
+                                <li class="footer__coshil-link"><a href="#">
+                                    <img src="images/content/instagram.svg" alt="">
+                                </a></li>
+                                <li class="footer__coshil-link"><a href="#">
+                                    <img src="images/content/footer-logo.svg" alt="">
+                                </a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </footer>
+</div>
+
+    <!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="js/libs.min.js"></script>
+    <script src="js/jquery.formstyler.min.js"></script>
+    <script src="js/main.js"></script>
+
+</body>
+
+</html>
